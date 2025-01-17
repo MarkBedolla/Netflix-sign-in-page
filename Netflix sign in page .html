@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('N1.JPG') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signin-container {
+            background-color: rgba(0, 0, 0, 0.75);
+            padding: 40px;
+            border-radius: 8px;
+            max-width: 350px;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .signin-container h1 {
+            margin-bottom: 20px;
+        }
+
+        .signin-container input[type="email"],
+        .signin-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            background-color: #28282B;
+            color: white;
+        }
+
+        .signin-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signin-container button:hover {
+            background-color: #f6121d;
+        }
+
+        .signin-container .help {
+            margin-top: 20px;
+            font-size: 15px;
+			color: #a9a9a9;
+        }
+
+        .signin-container .help a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .signin-container .help a:hover {
+            text-decoration: underline;
+        }
+
+        .signin-container .code-button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signin-container .code-button:hover {
+            background-color: #333;
+        }
+
+        .or-text {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+
+        .recaptcha-text {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #a9a9a9;
+        }
+
+        .recaptcha-text a {
+            color: #4169E1;
+			text-decoration:none;
+        }
+		
+		.recaptcha-text a:hover{
+			text-decoration: underline;
+		}
+
+        .remember-me {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            font-size: 15px;
+            color: #FFFFFF;
+        }
+
+        .remember-me input {
+            margin-right: 10px;
+        }
+
+        .forgot-password {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .forgot-password a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="signin-container">
+        <h1>Sign In</h1>
+        <form action="#" method="POST">
+            <input type="email" placeholder="Email or phone number" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign In</button>
+            <div class="or-text">OR</div>
+            <button type="button" class="code-button">Use a sign-in code</button>
+            <div class="forgot-password">
+                <a href="WHATS 9 + 10 21??">Forgot password?</a>
+            </div>
+        </form>
+        <div class="remember-me">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
+        </div>
+        <div class="help">
+            <p>New to Netflix? <a href="DEEZNUTZ">Sign up now.</a></p>
+        </div>
+        <div class="recaptcha-text">
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="DEEZNUTZ">Learn more</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
